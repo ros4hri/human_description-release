@@ -1,0 +1,26 @@
+ros-jazzy-human-description (2.0.2-1noble) noble; urgency=high
+
+  * fix joint limits for the arms
+    the joint limits for the arms were wrong, as they did not really
+    reflect the range of movements a human is able to perform. This
+    commit introduces realistic joint limits for human arms.
+  * Contributors: lorenzoferrini
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Sun, 04 Feb 2024 23:00:00 -0000
+
+ros-jazzy-human-description (2.0.1-1noble) noble; urgency=high
+
+  * port to ROS2 humble
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Sun, 12 Nov 2023 23:00:00 -0000
+
+ros-jazzy-human-description (1.0.0-1noble) noble; urgency=high
+
+  * v1 of the human URDF model
+  * Initial commit
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Wed, 12 Jan 2022 23:00:00 -0000
+
+

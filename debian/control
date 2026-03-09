@@ -1,0 +1,13 @@
+Source: ros-jazzy-human-description
+Section: misc
+Priority: optional
+Maintainer: Séverin Lemaignan <severin.lemaignan@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-auto, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-launch-testing-ament-cmake <!nocheck>, ros-jazzy-robot-state-publisher <!nocheck>, ros-jazzy-urdf-test <!nocheck>, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-human-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-launch, ros-jazzy-launch-pal, ros-jazzy-launch-param-builder, ros-jazzy-launch-ros, ros-jazzy-xacro, ros-jazzy-ros-workspace
+Description: This package contains a parametric kinematic description of humans.
+ The files in this package are parsed and used by a variety of other components, notably in the context of human-robot interaction. Most users will not interact directly with this package.
